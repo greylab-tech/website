@@ -7,7 +7,7 @@ import { ActionLink } from "../ui/action-link";
 import { RollingText } from "../ui/rolling-text";
 import { navigation } from "@/data/site";
 
-const primaryAction = "Start a Project₹";
+const primaryAction = "Contact us";
 export function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

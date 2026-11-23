@@ -26,7 +26,7 @@ export function Hero() {
               ))}
             </p>
             <div className="home-hero__actions">
-              <ActionLink href="/contact">Start a Project</ActionLink>
+              <ActionLink href="/contact">Let's talk</ActionLink>
               <ReviewBadge />
             </div>
           </div>

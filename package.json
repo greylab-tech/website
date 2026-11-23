@@ -5,8 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "bun scripts/serve.mjs",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "verify": "bun scripts/verify-site.mjs",
+    "format": "prettier --write app components data lib styles scripts docs next.config.ts eslint.config.mjs README.md",
+    "format:check": "prettier --check app components data lib styles scripts docs next.config.ts eslint.config.mjs README.md",
+    "images:optimize": "bun scripts/optimize-images.mjs",
+    "test": "bun test lib/webgl"
   },
   "dependencies": {
     "next": "16.4.6",
@@ -20,6 +26,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "prettier": "^3.10.1",
+    "sharp": "0.35.5",
     "tailwindcss": "4.3.3",
     "typescript": "^5"
   },

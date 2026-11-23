@@ -12,7 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "reference-data/**",
+    ".taste-skill/**",
   ]),
+  {
+    // Images are local, pre-exported media; this static site has no image server.
+    rules: { "@next/next/no-img-element": "off" },
+  },
 ]);
 
 export default eslintConfig;

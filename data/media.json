@@ -1,0 +1,750 @@
+{
+  "/images/V7NNw8lLD52s24rook6eRHHpAi8.webp": {
+    "width": 2400,
+    "height": 1808,
+    "bytes": 375306,
+    "variants": [
+      {
+        "src": "/images/responsive/V7NNw8lLD52s24rook6eRHHpAi8-994166419220-480.webp",
+        "width": 480,
+        "bytes": 15170
+      },
+      {
+        "src": "/images/responsive/V7NNw8lLD52s24rook6eRHHpAi8-994166419220-800.webp",
+        "width": 800,
+        "bytes": 34178
+      },
+      {
+        "src": "/images/responsive/V7NNw8lLD52s24rook6eRHHpAi8-994166419220-1200.webp",
+        "width": 1200,
+        "bytes": 76690
+      },
+      {
+        "src": "/images/responsive/V7NNw8lLD52s24rook6eRHHpAi8-994166419220-1920.webp",
+        "width": 1920,
+        "bytes": 157560
+      }
+    ]
+  },
+  "/images/blogs/branding-trust.webp": {
+    "width": 1816,
+    "height": 2400,
+    "bytes": 88826,
+    "variants": [
+      {
+        "src": "/images/responsive/branding-trust-89da68fed6e4-480.webp",
+        "width": 480,
+        "bytes": 10554
+      },
+      {
+        "src": "/images/responsive/branding-trust-89da68fed6e4-800.webp",
+        "width": 800,
+        "bytes": 20546
+      },
+      {
+        "src": "/images/responsive/branding-trust-89da68fed6e4-1200.webp",
+        "width": 1200,
+        "bytes": 34986
+      }
+    ]
+  },
+  "/images/blogs/conversion-mistakes.webp": {
+    "width": 2807,
+    "height": 2404,
+    "bytes": 741980,
+    "variants": [
+      {
+        "src": "/images/responsive/conversion-mistakes-efa859fb7a15-480.webp",
+        "width": 480,
+        "bytes": 22260
+      },
+      {
+        "src": "/images/responsive/conversion-mistakes-efa859fb7a15-800.webp",
+        "width": 800,
+        "bytes": 54960
+      },
+      {
+        "src": "/images/responsive/conversion-mistakes-efa859fb7a15-1200.webp",
+        "width": 1200,
+        "bytes": 121786
+      },
+      {
+        "src": "/images/responsive/conversion-mistakes-efa859fb7a15-1920.webp",
+        "width": 1920,
+        "bytes": 282578
+      }
+    ]
+  },
+  "/images/blogs/digital-marketing.webp": {
+    "width": 1816,
+    "height": 2400,
+    "bytes": 164714,
+    "variants": [
+      {
+        "src": "/images/responsive/digital-marketing-736a92370d77-480.webp",
+        "width": 480,
+        "bytes": 21564
+      },
+      {
+        "src": "/images/responsive/digital-marketing-736a92370d77-800.webp",
+        "width": 800,
+        "bytes": 44860
+      },
+      {
+        "src": "/images/responsive/digital-marketing-736a92370d77-1200.webp",
+        "width": 1200,
+        "bytes": 76394
+      }
+    ]
+  },
+  "/images/blogs/performance-websites.webp": {
+    "width": 1808,
+    "height": 2400,
+    "bytes": 81902,
+    "variants": [
+      {
+        "src": "/images/responsive/performance-websites-c6df52d2d9a5-480.webp",
+        "width": 480,
+        "bytes": 12440
+      },
+      {
+        "src": "/images/responsive/performance-websites-c6df52d2d9a5-800.webp",
+        "width": 800,
+        "bytes": 21800
+      },
+      {
+        "src": "/images/responsive/performance-websites-c6df52d2d9a5-1200.webp",
+        "width": 1200,
+        "bytes": 35944
+      }
+    ]
+  },
+  "/images/blogs/seo.webp": {
+    "width": 2400,
+    "height": 2000,
+    "bytes": 121382,
+    "variants": [
+      {
+        "src": "/images/responsive/seo-d9e84b8b4483-480.webp",
+        "width": 480,
+        "bytes": 9500
+      },
+      {
+        "src": "/images/responsive/seo-d9e84b8b4483-800.webp",
+        "width": 800,
+        "bytes": 19012
+      },
+      {
+        "src": "/images/responsive/seo-d9e84b8b4483-1200.webp",
+        "width": 1200,
+        "bytes": 33766
+      },
+      {
+        "src": "/images/responsive/seo-d9e84b8b4483-1920.webp",
+        "width": 1920,
+        "bytes": 56584
+      }
+    ]
+  },
+  "/images/projects/cloudl-cover.webp": {
+    "width": 6000,
+    "height": 4500,
+    "bytes": 4861802,
+    "variants": [
+      {
+        "src": "/images/responsive/cloudl-cover-f32c20082c8c-480.webp",
+        "width": 480,
+        "bytes": 17626
+      },
+      {
+        "src": "/images/responsive/cloudl-cover-f32c20082c8c-800.webp",
+        "width": 800,
+        "bytes": 39636
+      },
+      {
+        "src": "/images/responsive/cloudl-cover-f32c20082c8c-1200.webp",
+        "width": 1200,
+        "bytes": 84984
+      },
+      {
+        "src": "/images/responsive/cloudl-cover-f32c20082c8c-1920.webp",
+        "width": 1920,
+        "bytes": 225738
+      }
+    ]
+  },
+  "/images/projects/cloudl-experience-overhaul-detail-1.webp": {
+    "width": 2400,
+    "height": 1600,
+    "bytes": 100584,
+    "variants": [
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-1-e2c9e1b42930-480.webp",
+        "width": 480,
+        "bytes": 6144
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-1-e2c9e1b42930-800.webp",
+        "width": 800,
+        "bytes": 11848
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-1-e2c9e1b42930-1200.webp",
+        "width": 1200,
+        "bytes": 21716
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-1-e2c9e1b42930-1920.webp",
+        "width": 1920,
+        "bytes": 42310
+      }
+    ]
+  },
+  "/images/projects/cloudl-experience-overhaul-detail-2.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 299888,
+    "variants": [
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-2-47cd59288b16-480.webp",
+        "width": 480,
+        "bytes": 9166
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-2-47cd59288b16-800.webp",
+        "width": 800,
+        "bytes": 21444
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-2-47cd59288b16-1200.webp",
+        "width": 1200,
+        "bytes": 50208
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-2-47cd59288b16-1920.webp",
+        "width": 1920,
+        "bytes": 119506
+      }
+    ]
+  },
+  "/images/projects/cloudl-experience-overhaul-detail-3.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 214132,
+    "variants": [
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-3-a8dfa2ebd35c-480.webp",
+        "width": 480,
+        "bytes": 9148
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-3-a8dfa2ebd35c-800.webp",
+        "width": 800,
+        "bytes": 19874
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-3-a8dfa2ebd35c-1200.webp",
+        "width": 1200,
+        "bytes": 45172
+      },
+      {
+        "src": "/images/responsive/cloudl-experience-overhaul-detail-3-a8dfa2ebd35c-1920.webp",
+        "width": 1920,
+        "bytes": 99922
+      }
+    ]
+  },
+  "/images/projects/lumo-cover.webp": {
+    "width": 6000,
+    "height": 4500,
+    "bytes": 1959846,
+    "variants": [
+      {
+        "src": "/images/responsive/lumo-cover-ce8d51f34f3c-480.webp",
+        "width": 480,
+        "bytes": 13196
+      },
+      {
+        "src": "/images/responsive/lumo-cover-ce8d51f34f3c-800.webp",
+        "width": 800,
+        "bytes": 35642
+      },
+      {
+        "src": "/images/responsive/lumo-cover-ce8d51f34f3c-1200.webp",
+        "width": 1200,
+        "bytes": 77840
+      },
+      {
+        "src": "/images/responsive/lumo-cover-ce8d51f34f3c-1920.webp",
+        "width": 1920,
+        "bytes": 183376
+      }
+    ]
+  },
+  "/images/projects/lumo-market-launch-detail-1.webp": {
+    "width": 2400,
+    "height": 2000,
+    "bytes": 163634,
+    "variants": [
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-1-8a3b08220f27-480.webp",
+        "width": 480,
+        "bytes": 13262
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-1-8a3b08220f27-800.webp",
+        "width": 800,
+        "bytes": 26716
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-1-8a3b08220f27-1200.webp",
+        "width": 1200,
+        "bytes": 50998
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-1-8a3b08220f27-1920.webp",
+        "width": 1920,
+        "bytes": 80688
+      }
+    ]
+  },
+  "/images/projects/lumo-market-launch-detail-2.webp": {
+    "width": 2400,
+    "height": 1600,
+    "bytes": 547656,
+    "variants": [
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-2-b310a7c1393d-480.webp",
+        "width": 480,
+        "bytes": 9998
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-2-b310a7c1393d-800.webp",
+        "width": 800,
+        "bytes": 22468
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-2-b310a7c1393d-1200.webp",
+        "width": 1200,
+        "bytes": 65090
+      },
+      {
+        "src": "/images/responsive/lumo-market-launch-detail-2-b310a7c1393d-1920.webp",
+        "width": 1920,
+        "bytes": 175436
+      }
+    ]
+  },
+  "/images/projects/nexa-cover.webp": {
+    "width": 6000,
+    "height": 4500,
+    "bytes": 5645022,
+    "variants": [
+      {
+        "src": "/images/responsive/nexa-cover-33a4dd5c33a7-480.webp",
+        "width": 480,
+        "bytes": 17536
+      },
+      {
+        "src": "/images/responsive/nexa-cover-33a4dd5c33a7-800.webp",
+        "width": 800,
+        "bytes": 44320
+      },
+      {
+        "src": "/images/responsive/nexa-cover-33a4dd5c33a7-1200.webp",
+        "width": 1200,
+        "bytes": 98628
+      },
+      {
+        "src": "/images/responsive/nexa-cover-33a4dd5c33a7-1920.webp",
+        "width": 1920,
+        "bytes": 263568
+      }
+    ]
+  },
+  "/images/projects/nexa-search-surge-detail-1.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 199124,
+    "variants": [
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-1-2e8f19c1f551-480.webp",
+        "width": 480,
+        "bytes": 6856
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-1-2e8f19c1f551-800.webp",
+        "width": 800,
+        "bytes": 14286
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-1-2e8f19c1f551-1200.webp",
+        "width": 1200,
+        "bytes": 30344
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-1-2e8f19c1f551-1920.webp",
+        "width": 1920,
+        "bytes": 75960
+      }
+    ]
+  },
+  "/images/projects/nexa-search-surge-detail-2.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 302790,
+    "variants": [
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-2-9fc405cfc741-480.webp",
+        "width": 480,
+        "bytes": 10046
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-2-9fc405cfc741-800.webp",
+        "width": 800,
+        "bytes": 25760
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-2-9fc405cfc741-1200.webp",
+        "width": 1200,
+        "bytes": 58392
+      },
+      {
+        "src": "/images/responsive/nexa-search-surge-detail-2-9fc405cfc741-1920.webp",
+        "width": 1920,
+        "bytes": 127438
+      }
+    ]
+  },
+  "/images/projects/premiere-cover.webp": {
+    "width": 6000,
+    "height": 4500,
+    "bytes": 3839502,
+    "variants": [
+      {
+        "src": "/images/responsive/premiere-cover-ca39d4977a4a-480.webp",
+        "width": 480,
+        "bytes": 12712
+      },
+      {
+        "src": "/images/responsive/premiere-cover-ca39d4977a4a-800.webp",
+        "width": 800,
+        "bytes": 27438
+      },
+      {
+        "src": "/images/responsive/premiere-cover-ca39d4977a4a-1200.webp",
+        "width": 1200,
+        "bytes": 51034
+      },
+      {
+        "src": "/images/responsive/premiere-cover-ca39d4977a4a-1920.webp",
+        "width": 1920,
+        "bytes": 104464
+      }
+    ]
+  },
+  "/images/projects/premiere-expansion-detail-1.webp": {
+    "width": 1800,
+    "height": 2400,
+    "bytes": 391854,
+    "variants": [
+      {
+        "src": "/images/responsive/premiere-expansion-detail-1-b11571ebff94-480.webp",
+        "width": 480,
+        "bytes": 25366
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-1-b11571ebff94-800.webp",
+        "width": 800,
+        "bytes": 56244
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-1-b11571ebff94-1200.webp",
+        "width": 1200,
+        "bytes": 107908
+      }
+    ]
+  },
+  "/images/projects/premiere-expansion-detail-2.webp": {
+    "width": 1800,
+    "height": 2400,
+    "bytes": 249800,
+    "variants": [
+      {
+        "src": "/images/responsive/premiere-expansion-detail-2-afe18c3a3dbb-480.webp",
+        "width": 480,
+        "bytes": 7724
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-2-afe18c3a3dbb-800.webp",
+        "width": 800,
+        "bytes": 17130
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-2-afe18c3a3dbb-1200.webp",
+        "width": 1200,
+        "bytes": 37042
+      }
+    ]
+  },
+  "/images/projects/premiere-expansion-detail-3.webp": {
+    "width": 2400,
+    "height": 2400,
+    "bytes": 74354,
+    "variants": [
+      {
+        "src": "/images/responsive/premiere-expansion-detail-3-57dd4dd15c6f-480.webp",
+        "width": 480,
+        "bytes": 3844
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-3-57dd4dd15c6f-800.webp",
+        "width": 800,
+        "bytes": 7838
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-3-57dd4dd15c6f-1200.webp",
+        "width": 1200,
+        "bytes": 16188
+      },
+      {
+        "src": "/images/responsive/premiere-expansion-detail-3-57dd4dd15c6f-1920.webp",
+        "width": 1920,
+        "bytes": 32198
+      }
+    ]
+  },
+  "/images/projects/stratus-cover.webp": {
+    "width": 2400,
+    "height": 2400,
+    "bytes": 160218,
+    "variants": [
+      {
+        "src": "/images/responsive/stratus-cover-bfadfb1ac441-480.webp",
+        "width": 480,
+        "bytes": 13568
+      },
+      {
+        "src": "/images/responsive/stratus-cover-bfadfb1ac441-800.webp",
+        "width": 800,
+        "bytes": 27244
+      },
+      {
+        "src": "/images/responsive/stratus-cover-bfadfb1ac441-1200.webp",
+        "width": 1200,
+        "bytes": 51148
+      },
+      {
+        "src": "/images/responsive/stratus-cover-bfadfb1ac441-1920.webp",
+        "width": 1920,
+        "bytes": 83864
+      }
+    ]
+  },
+  "/images/projects/stratus-generation-engine-detail-1.webp": {
+    "width": 2400,
+    "height": 1808,
+    "bytes": 321100,
+    "variants": [
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-1-8c6694378449-480.webp",
+        "width": 480,
+        "bytes": 15938
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-1-8c6694378449-800.webp",
+        "width": 800,
+        "bytes": 34856
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-1-8c6694378449-1200.webp",
+        "width": 1200,
+        "bytes": 72146
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-1-8c6694378449-1920.webp",
+        "width": 1920,
+        "bytes": 144214
+      }
+    ]
+  },
+  "/images/projects/stratus-generation-engine-detail-3.webp": {
+    "width": 2400,
+    "height": 1500,
+    "bytes": 97906,
+    "variants": [
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-3-c41e6fd5bf70-480.webp",
+        "width": 480,
+        "bytes": 9890
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-3-c41e6fd5bf70-800.webp",
+        "width": 800,
+        "bytes": 18816
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-3-c41e6fd5bf70-1200.webp",
+        "width": 1200,
+        "bytes": 33514
+      },
+      {
+        "src": "/images/responsive/stratus-generation-engine-detail-3-c41e6fd5bf70-1920.webp",
+        "width": 1920,
+        "bytes": 51752
+      }
+    ]
+  },
+  "/images/projects/thread-cover.webp": {
+    "width": 1600,
+    "height": 2400,
+    "bytes": 547088,
+    "variants": [
+      {
+        "src": "/images/responsive/thread-cover-3bfaf82e22e3-480.webp",
+        "width": 480,
+        "bytes": 12812
+      },
+      {
+        "src": "/images/responsive/thread-cover-3bfaf82e22e3-800.webp",
+        "width": 800,
+        "bytes": 61830
+      },
+      {
+        "src": "/images/responsive/thread-cover-3bfaf82e22e3-1200.webp",
+        "width": 1200,
+        "bytes": 156862
+      }
+    ]
+  },
+  "/images/projects/thread-revenue-lift-detail-1.webp": {
+    "width": 2400,
+    "height": 1600,
+    "bytes": 154514,
+    "variants": [
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-1-609c765e157c-480.webp",
+        "width": 480,
+        "bytes": 3006
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-1-609c765e157c-800.webp",
+        "width": 800,
+        "bytes": 6374
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-1-609c765e157c-1200.webp",
+        "width": 1200,
+        "bytes": 17166
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-1-609c765e157c-1920.webp",
+        "width": 1920,
+        "bytes": 48570
+      }
+    ]
+  },
+  "/images/projects/thread-revenue-lift-detail-2.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 209188,
+    "variants": [
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-2-5e15cb497aef-480.webp",
+        "width": 480,
+        "bytes": 6630
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-2-5e15cb497aef-800.webp",
+        "width": 800,
+        "bytes": 19322
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-2-5e15cb497aef-1200.webp",
+        "width": 1200,
+        "bytes": 47246
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-2-5e15cb497aef-1920.webp",
+        "width": 1920,
+        "bytes": 108880
+      }
+    ]
+  },
+  "/images/projects/thread-revenue-lift-detail-3.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 219788,
+    "variants": [
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-3-175167ee9d78-480.webp",
+        "width": 480,
+        "bytes": 3732
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-3-175167ee9d78-800.webp",
+        "width": 800,
+        "bytes": 12072
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-3-175167ee9d78-1200.webp",
+        "width": 1200,
+        "bytes": 36698
+      },
+      {
+        "src": "/images/responsive/thread-revenue-lift-detail-3-175167ee9d78-1920.webp",
+        "width": 1920,
+        "bytes": 99046
+      }
+    ]
+  },
+  "/images/projects/vertex-cover.webp": {
+    "width": 1920,
+    "height": 2400,
+    "bytes": 260800,
+    "variants": [
+      {
+        "src": "/images/responsive/vertex-cover-8faff2058122-480.webp",
+        "width": 480,
+        "bytes": 17748
+      },
+      {
+        "src": "/images/responsive/vertex-cover-8faff2058122-800.webp",
+        "width": 800,
+        "bytes": 40942
+      },
+      {
+        "src": "/images/responsive/vertex-cover-8faff2058122-1200.webp",
+        "width": 1200,
+        "bytes": 82782
+      }
+    ]
+  },
+  "/images/projects/vertex-digital-platform-detail-3.webp": {
+    "width": 2400,
+    "height": 1345,
+    "bytes": 437196,
+    "variants": [
+      {
+        "src": "/images/responsive/vertex-digital-platform-detail-3-7091210f4df6-480.webp",
+        "width": 480,
+        "bytes": 9342
+      },
+      {
+        "src": "/images/responsive/vertex-digital-platform-detail-3-7091210f4df6-800.webp",
+        "width": 800,
+        "bytes": 29260
+      },
+      {
+        "src": "/images/responsive/vertex-digital-platform-detail-3-7091210f4df6-1200.webp",
+        "width": 1200,
+        "bytes": 80648
+      },
+      {
+        "src": "/images/responsive/vertex-digital-platform-detail-3-7091210f4df6-1920.webp",
+        "width": 1920,
+        "bytes": 206890
+      }
+    ]
+  }
+}

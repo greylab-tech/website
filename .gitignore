@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Downloaded reference snapshots and local visual QA artifacts
+/reference-data/
+/.taste-skill/
+/shots/

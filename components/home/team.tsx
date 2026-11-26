@@ -2,56 +2,11 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { team } from "@/data/team";
+import { team, type TeamMember } from "@/data/team";
 import { SectionHeading } from "./section-heading";
 import { CarouselControls } from "./carousel-controls";
 
-const sampleTeam = [
-  {
-    name: "Olivia Carter",
-    role: "Founder & CEO",
-    image: "olivia-carter",
-    icon: "𝕏",
-  },
-  {
-    name: "Ethan Brooks",
-    role: "SEO & Growth Strategist",
-    image: "ethan-brooks",
-    icon: "◎",
-  },
-  {
-    name: "Noah Mitchell",
-    role: "Digital Marketing Manager",
-    image: "noah-mitchell",
-    icon: "in",
-  },
-  {
-    name: "Liam Parker",
-    role: "Lead Web Designer",
-    image: "liam-parker",
-    icon: "◉",
-  },
-  {
-    name: "Ava Richardson",
-    role: "Creative Strategist",
-    image: "ava-richardson",
-    icon: "◎",
-  },
-  {
-    name: "Joe Bennett",
-    role: "Lead Developer",
-    image: "joe-bennett",
-    icon: "◎",
-  },
-];
-
-function SampleTeamCard({
-  member,
-  index,
-}: {
-  member: (typeof sampleTeam)[number];
-  index: number;
-}) {
+function TeamCard({ member, index }: { member: TeamMember; index: number }) {
   return (
     <article
       className={`home-team__card ${index % 2 ? "home-team__card--short" : ""}`}
@@ -59,34 +14,30 @@ function SampleTeamCard({
       <div className="home-team__portrait">
         <Image
           className="home-team__portrait-background"
-          src="/images/team/portrait-background.png"
+          src="/images/team/portrait-background.webp"
           alt=""
           fill
           sizes="370px"
         />
         <Image
           className="home-team__person"
-          src={`/images/team/${member.image}.png`}
+          src={member.portrait}
           alt=""
           fill
           sizes="(max-width: 809px) 82vw, 370px"
+          style={{ objectPosition: member.portraitPosition }}
         />
         <div className="home-team__portrait-shade" aria-hidden="true" />
       </div>
       <div className="home-team__details">
-        <div>
-          <h3>{member.name}</h3>
-          <p>{member.role}</p>
-        </div>
-        <span className="home-team__social" aria-hidden="true">
-          {member.icon}
-        </span>
+        <h3>{member.name}</h3>
+        <p>{member.role}</p>
       </div>
     </article>
   );
 }
 
-function SampleTeamCarousel() {
+function TeamCarousel() {
   const track = useRef<HTMLDivElement>(null);
   const mobile = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
@@ -129,12 +80,8 @@ function SampleTeamCarousel() {
               key={copy}
               aria-hidden={copy === 1}
             >
-              {sampleTeam.map((member, index) => (
-                <SampleTeamCard
-                  member={member}
-                  index={index}
-                  key={member.name}
-                />
+              {team.map((member, index) => (
+                <TeamCard member={member} index={index} key={member.name} />
               ))}
             </div>
           ))}
@@ -149,8 +96,8 @@ function SampleTeamCarousel() {
       </button>
       <div className="home-team__mobile">
         <div className="home-team__mobile-track" ref={mobile}>
-          {sampleTeam.map((member, index) => (
-            <SampleTeamCard member={member} index={index} key={member.name} />
+          {team.map((member, index) => (
+            <TeamCard member={member} index={index} key={member.name} />
           ))}
         </div>
         <CarouselControls previous={() => move(-1)} next={() => move(1)} />
@@ -159,47 +106,17 @@ function SampleTeamCarousel() {
   );
 }
 
-function TeamMembers() {
-  return (
-    <ul className="home-team__members">
-      {team.map(({ name, role, portrait, profiles }) => (
-        <li className="home-team__member" key={name}>
-          <img src={portrait} alt="" loading="lazy" />
-          <div>
-            <h3>{name}</h3>
-            <p>{role}</p>
-            <ul className="home-team__profiles">
-              {profiles.map(({ label, href }) => (
-                <li key={href}>
-                  <a href={href} aria-label={`${name} on ${label}`}>
-                    {label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
 export function Team() {
-  const hasMembers = team.length > 0;
   return (
     <section className="home-team home-bordered-section" id="team">
       <div className="container home-team__container">
         <SectionHeading label="OUR TEAM" title="Meet our expert team">
-          {hasMembers ? (
-            <p>
-              Three developers who love solving problems, building products, and
-              turning challenging ideas into working software.
-            </p>
-          ) : (
-            <p>Example profiles from the original template.</p>
-          )}
+          <p>
+            Our team covers software engineering, client relations, SEO, and
+            paid advertising.
+          </p>
         </SectionHeading>
-        {hasMembers ? <TeamMembers /> : <SampleTeamCarousel />}
+        <TeamCarousel />
       </div>
     </section>
   );

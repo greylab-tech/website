@@ -33,7 +33,7 @@ The Bun production preview serves `out/` at http://127.0.0.1:4173. `PORT` and `H
 | `components/ui/`       | Shared buttons, rolling link text, icons, and section labels                                             |
 | `data/projects.ts`     | Project records, screenshots, technical highlights, and case studies                                     |
 | `data/blogs.ts`        | Article records and rich text                                                                            |
-| `data/team.ts`         | Verified team names, roles, portraits, and profile links                                                 |
+| `data/team.ts`         | Team names, roles, portraits, and image positioning                                                      |
 | `lib/media.ts`         | Responsive local image lookup and display sizes                                                          |
 | `styles/`              | Shared layout and scoped home/secondary page styles                                                      |
 | `public/images/`       | Local images, including the GreyLab logos in `brand/`                                                    |

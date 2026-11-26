@@ -5,7 +5,7 @@ import { Stats } from "@/components/home/stats";
 import { FeaturedWork } from "@/components/home/featured-work";
 import { Services } from "@/components/home/services";
 import { Process } from "@/components/home/process";
-import { Studio } from "@/components/home/studio";
+// import { Studio } from "@/components/home/studio";
 import { Pricing } from "@/components/home/pricing";
 import { Team } from "@/components/home/team";
 import { Testimonials } from "@/components/home/testimonials";
@@ -22,7 +22,7 @@ export default function Home() {
       <FeaturedWork />
       <Services />
       <Process />
-      <Studio />
+      {/* <Studio /> */}
       <Pricing />
       <Team />
       <Testimonials />

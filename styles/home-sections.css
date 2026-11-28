@@ -510,6 +510,8 @@
   max-width: 480px;
 }
 .home-team__carousel {
+  --team-card-width: 370px;
+  --team-card-gap: 22px;
   margin-top: 80px;
 }
 .home-team__ticker {
@@ -523,7 +525,6 @@
   );
 }
 .home-team__track,
-.home-team__group,
 .home-team__mobile-track {
   display: flex;
   align-items: center;
@@ -533,8 +534,13 @@
   animation: home-team-loop var(--team-duration, 31s) linear infinite;
 }
 .home-team__group {
-  gap: 22px;
-  padding-right: 22px;
+  display: grid;
+  flex: none;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--team-card-width);
+  gap: var(--team-card-gap);
+  /* Keep one card gap between the last card and the start of the next group. */
+  padding-inline-end: var(--team-card-gap);
 }
 .home-team__ticker:hover .home-team__track,
 .home-team__track[data-paused="true"] {
@@ -546,7 +552,6 @@
   }
 }
 .home-team__card {
-  flex: 0 0 370px;
   display: flex;
   flex-direction: column;
   height: 440px;
@@ -554,9 +559,6 @@
   border: 1px solid var(--line);
   border-radius: 2px;
   background: var(--surface);
-}
-.home-team__card--short {
-  height: 400px;
 }
 .home-team__portrait {
   flex: 1 0 0;
@@ -605,13 +607,13 @@
   display: none;
 }
 .home-team__mobile-track {
-  gap: 20px;
+  gap: var(--team-card-gap);
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   scroll-snap-type: x mandatory;
 }
 .home-team__mobile-track .home-team__card {
-  flex-basis: min(82%, 370px);
+  flex: 0 0 min(82%, var(--team-card-width));
   height: 410px;
   scroll-snap-align: start;
 }

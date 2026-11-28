@@ -6,11 +6,9 @@ import { team, type TeamMember } from "@/data/team";
 import { SectionHeading } from "./section-heading";
 import { CarouselControls } from "./carousel-controls";
 
-function TeamCard({ member, index }: { member: TeamMember; index: number }) {
+function TeamCard({ member }: { member: TeamMember }) {
   return (
-    <article
-      className={`home-team__card ${index % 2 ? "home-team__card--short" : ""}`}
-    >
+    <article className="home-team__card">
       <div className="home-team__portrait">
         <Image
           className="home-team__portrait-background"
@@ -80,8 +78,8 @@ function TeamCarousel() {
               key={copy}
               aria-hidden={copy === 1}
             >
-              {team.map((member, index) => (
-                <TeamCard member={member} index={index} key={member.name} />
+              {team.map((member) => (
+                <TeamCard member={member} key={member.name} />
               ))}
             </div>
           ))}
@@ -96,8 +94,8 @@ function TeamCarousel() {
       </button>
       <div className="home-team__mobile">
         <div className="home-team__mobile-track" ref={mobile}>
-          {team.map((member, index) => (
-            <TeamCard member={member} index={index} key={member.name} />
+          {team.map((member) => (
+            <TeamCard member={member} key={member.name} />
           ))}
         </div>
         <CarouselControls previous={() => move(-1)} next={() => move(1)} />
